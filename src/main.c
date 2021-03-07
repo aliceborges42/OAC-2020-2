@@ -22,20 +22,20 @@ void main(void){
     for(int i =0; i<=6; i++)
         printf("mem[%d] = %.8x\n", i, mem[i]);
     
-    printf("\n/////////////\n");
+    printf("\n/////////////    função lb    ///////////\n");
     printf("lb(4,0) = %.8x\n", lb(4,0));
     printf("lb(4,1) = %.8x\n", lb(4,1));
     printf("lb(4,2) = %.8x\n", lb(4,2));
     printf("lb(4,3) = %.8x\n", lb(4,3));
-    //printf("----------------\n");
-    // for(int i =0; i<=6; i++)
-    //     printf("%.8x\n", mem[i]);
-    printf("\n/////////////\n");
+
+    printf("\n/////////////   função lbu   ////////////\n");
     printf("lbu(4,0) = %.8x\n", lbu(4,0));
     printf("lbu(4,1) = %.8x\n", lbu(4,1));
     printf("lbu(4,2) = %.8x\n", lbu(4,2));
     printf("lbu(4,3) = %.8x\n", lbu(4,3));
-    printf("\n/////////////\n");
+
+
+    printf("\n/////////////   função lw   ////////////\n");
     printf("lw(12,0) = %.8x\n", lw(12,0));
     printf("lw(16,0) = %.8x\n", lw(16,0));
     printf("lw(20,0) = %.8x\n", lw(20,0));
